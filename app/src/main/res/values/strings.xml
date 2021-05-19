@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Crud com Room</string>
+
+
+    <!--SubscriberFragment -->
+    <string name="subscribers_email_hint">E-mail</string>
+    <string name="subscriber_name_hint">Subscriber\s name</string>
+    <string name="button_add">Add</string>
+    <string name="subscriber_title">Subscriber</string>
+
+    <string name="subscriber_inserted_sucessfully">Subscriber was sucessfully inserted</string>
+    <string name="subscriber_error_to_insert">There was an error when insertin Subscriber</string>
+
+    <!--SubscriberList -->
+    <string name="subscriberList_title">Subscriber List</string>
+    <string name="subscriber_button_update">Update</string>
+    <string name="subscriber_updated_sucessfully">Subscriber was sucessfully updated</string>
+    <string name="subscriber_button_delete">Delete</string>
+    <string name="subscriber_deleted_sucessfully">Subscriber was successfully  deleted</string>
+    <string name="subscriber_error_to_delete">There was an error when deleting Subscriber</string>
+    <string name="subscriber_error_to_update">There was an error when updating Subscriber</string>
+
+
+</resources>
