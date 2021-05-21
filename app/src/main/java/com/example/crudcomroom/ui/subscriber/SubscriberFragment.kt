@@ -69,7 +69,7 @@ class SubscriberFragment : Fragment(R.layout.subscriber_fragment) {
         }
 
         viewModel.messageStateEventData.observe(viewLifecycleOwner) { stringResId ->
-            Snackbar.make(requireView(), stringResId, Snackbar.LENGTH_LONG).show()
+            Snackbar.make(requireView(), stringResId, Snackbar.LENGTH_SHORT).show()
         }
 
     }

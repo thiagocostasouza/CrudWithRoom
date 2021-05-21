@@ -23,9 +23,11 @@ class SubscriberListAdapter(private val subscribers: List<SubscriberEntity>) :
 
     override fun onBindViewHolder(holder: SubscriberListViewHolder, position: Int) {
        holder.bindView(subscribers[position])
+
     }
 
     override fun getItemCount() = subscribers.size
+
 
 
 

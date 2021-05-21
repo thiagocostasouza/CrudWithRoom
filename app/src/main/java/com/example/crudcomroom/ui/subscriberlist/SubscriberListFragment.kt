@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.crudcomroom.R
@@ -58,6 +59,7 @@ class SubscriberListFragment : Fragment(R.layout.subscriber_list_fragment) {
             with(recyclerView) {
                 setHasFixedSize(true)
                 adapter = subscriberListAdapter
+
             }
         }
     }
